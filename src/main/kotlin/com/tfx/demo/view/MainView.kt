@@ -12,6 +12,6 @@ class MainView : View("Hello TornadoFX") {
 
     fun onBtnClicked() {
         i ++
-        lblOutput.text("Value of i : $i")
+        lblOutput.text = "Value of i : $i"
     }
 }
