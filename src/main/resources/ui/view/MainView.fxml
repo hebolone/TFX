@@ -2,11 +2,19 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="227.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="309.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button contentDisplay="CENTER" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#onBtnClicked" prefHeight="25.0" prefWidth="111.0" text="Clicka qui" />
-      <Label fx:id="lblOutput" layoutX="181.0" layoutY="39.0" text="Ciao, mondo" />
+      <Button contentDisplay="CENTER" layoutX="14.0" layoutY="259.0" mnemonicParsing="false" onAction="#onBtnClicked" prefHeight="25.0" prefWidth="111.0" text="Clicka qui">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblOutput" layoutX="217.0" layoutY="266.0" text="Ciao, mondo" />
+      <TextField fx:id="txtName" layoutX="14.0" layoutY="223.0" prefHeight="25.0" prefWidth="474.0" promptText="Insert your name here" />
+      <Label fx:id="lblCounter" layoutX="341.0" layoutY="266.0" text="Label" />
    </children>
 </AnchorPane>
